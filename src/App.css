@@ -1,0 +1,45 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+  background-color:blue;
+
+}
+
+.container {
+  background-color: white;
+  width: 250px;
+  padding: 10px;
+  border-radius: 10px;
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+
+.lista {
+  list-style: none;
+  margin: 10px;
+  padding: 10px;
+  height: 300px;
+  overflow: auto;
+}
+
+.novoItem {
+  display: flex;
+  margin: 0;
+  justify-content: space-between;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.item {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.item + .item {
+  margin-top: 5px;
+  border-top: 1px solid;
+  padding-top: 5px;
+}
